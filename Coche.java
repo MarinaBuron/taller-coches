@@ -8,7 +8,7 @@
 public class Coche{
     //Atributos de la clase Coche
     String marca;
-    int velocidad;
+    int velocidadActual;
     
     /**
      * Constructor de la clase Coche
@@ -16,7 +16,7 @@ public class Coche{
      */
     public Coche(String laMarca){
         marca = laMarca;
-        velocidad = 0;
+        velocidadActual = 0;
     }
     
     /**
@@ -24,6 +24,22 @@ public class Coche{
      * @param aumentoVelocidad determina cuánto se aumenta la velocidad
      */
     public void acelerar(int aumentoVelocidad){
-        velocidad = aumentoVelocidad;
-    }    
+        velocidadActual = aumentoVelocidad;
+    }  
+    
+    /**
+     * Método que simula la revisión de un coche
+     */
+    public void revisarMotor(){
+        String reporteGeneral = "Iniciando revisión de diagnóstico";
+        System.out.println(reporteGeneral);
+        
+        if (velocidadActual == 0){
+            String diagnosticoMotor = "Motor detenido. Se puede revisar."; 
+            System.out.println(diagnosticoMotor);
+        }else{
+            String diagnosticoMotor = "Motor en marcha. Revisión no posible."; 
+            System.out.println(diagnosticoMotor);
+        }
+    }
 }   
