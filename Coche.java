@@ -42,4 +42,18 @@ public class Coche{
             System.out.println(diagnosticoMotor);
         }
     }
+    
+    /**
+     * Método el último incremento de velocidad realizado al coche
+     */
+    public void mostrarUltimoIncrementoVelocidadRealizado(){
+        System.out.println(aumentoVelocidad);
+    }
+    
+    /**
+     * Método que muestra el reporte de la última revisión realizada
+     */
+    public void mostrarReporteUltimaRevisionRealizada(){
+        System.out.println(reporteGeneral);
+    }
 }   
