@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Coche
+comment0.text=\r\n\ Clase\ que\ representa\ las\ caracter\u00EDsticas\ de\ un\ coche\r\n\ \r\n\ @author\ Marina\r\n\ @version\ 1.0\r\n
+comment1.params=laMarca
+comment1.target=Coche(java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Coche\r\n\ @param\ laMarca\ marca\ del\ coche\r\n
+comment2.params=aumentoVelocidad
+comment2.target=void\ acelerar(int)
+comment2.text=\r\n\ M\u00E9todo\ acelerar\ el\ coche\r\n\ @param\ aumentoVelocidad\ determina\ cu\u00E1nto\ se\ aumenta\ la\ velocidad\r\n
+numComments=3
